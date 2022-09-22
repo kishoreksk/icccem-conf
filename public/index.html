@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icccem 2022</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <header class="">
+        <div class="flex container justify-center items-center mx-auto px-5 py-2">
+            <a href="">
+                <img class="h-24 mr-5" src="./images/aulogo.png" alt="">
+
+            </a>
+            <div class="text-center">
+                <h3>International Conference on</h3>
+                <h2>COMPUTING , CIRCUITS, ENERGY AND MATERIALS</h2>
+                <h4>Dec 15-16 at Nagercoil, Tamil Nadu (Hybrid Event)</h4>
+
+            </div>
+        </div>
+
+    </header>
+    <nav class="color-1 mt-5">
+        <div class="flex container items-center px-10 py-2 text-white font-semibold">
+            <div class="md:hidden ">
+                <button class="mobile-menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                      </svg>
+                </button>
+
+            </div>
+            <!-- Mobile menu -->
+
+
+
+            <ul class="hidden md:flex flex-auto space-x-8 justify-center uppercase">
+                <li>
+                    <a href="index">Home</a>
+                </li>
+                <li>
+                    <a href="">Committee</a>
+                </li>
+                <li>
+                    <a href="registration.html">Registration</a>
+                </li>
+                <li>
+                    <a href="">Brochure</a>
+                </li>
+                <li>
+                    <a href="">Submission</a>
+                </li>
+                <li>
+                    <a href="">Venue</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+
+
+
+
+        </div>
+
+        <div class="mobile-menu hidden ">
+            <ul class="space-y-2 flex flex-col px-10 py-2 text-white ease-in duration-300">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Committee</a>
+                </li>
+                <li>
+                    <a href="">Registration</a>
+                </li>
+                <li>
+                    <a href="">Brochure</a>
+                </li>
+                <li>
+                    <a href="">Submission</a>
+                </li>
+                <li>
+                    <a href="">Venue</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <section class="relative bg-center bg-no-repeat bg-cover bg-[url(images/UCEN.jpg)]">
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
+
+        <div class="relative px-8 py-32 mx-auto max-w-screen-2xl sm:px-6 lg:px-12 lg:h-screen lg:items-center lg:flex">
+            <div class="max-w-xl text-center sm:text-left ">
+                <h1 class="text-3xl font-extrabold sm:text-5xl animate-pulse">
+                    International Conference on
+
+                    <strong class="block font-extrabold text-blue-700">
+                        COMPUTING , CIRCUITS, ENERGY AND MATERIALS
+                    </strong>
+                </h1>
+
+                <p class="max-w-lg mt-4 sm:leading-relaxed sm:text-xl font-semibold text-gray-800">
+                    Dec 15 & 16, 2022 at Nagercoil,
+                </p>
+                <p class="max-w-lg sm:leading-relaxed sm:text-xl font-semibold text-gray-800">
+                    Tamil Nadu (Hybrid Event)
+                </p>
+
+                <div class="flex flex-wrap mt-8 text-center gap-4">
+                    <a href="registration.html" class=" animate-bounce block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-rose-600 sm:w-auto active:bg-rose-500 hover:bg-rose-700 focus:outline-none focus:ring">
+          Register Here
+        </a>
+
+                    <a href="#" class="block w-full px-12 py-3 text-sm font-medium bg-white rounded shadow text-rose-600 sm:w-auto hover:text-rose-700 active:text-rose-500 focus:outline-none focus:ring">
+          Learn More
+        </a>
+                    <div class="justify-center flex space-x-2 ">
+
+                        <p class="font-mono font-bold px-2 py-3 border-double border-4 rounded-lg bg-white" id="demo">Days</p>
+                        <p class="font-mono font-bold py-4 ">Days</p>
+                        <p class="font-mono font-bold px-2 py-3 border-double border-4 rounded-lg bg-white" id="demo1">Hours</p>
+                        <p class="font-mono font-bold py-4">Hours</p>
+                        <p class="font-mono font-bold px-2 py-3 border-double border-4 rounded-lg bg-white" id="demo2">Mins</p>
+                        <p class="font-mono font-bold py-4">Mins</p>
+                        <p class="font-mono font-bold px-2 py-3 border-double border-4 rounded-lg bg-white" id="demo3">Sec</p>
+                        <p class="font-mono font-bold py-4">Sec</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Dec 15, 2022 00:00:00").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Output the result in an element with id="demo"
+                document.getElementById("demo").innerHTML = days;
+                document.getElementById("demo1").innerHTML = hours;
+                document.getElementById("demo2").innerHTML = minutes;
+                document.getElementById("demo3").innerHTML = seconds;
+
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+        </div>
+    </section>
+
+
+
+</body>
+<script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+
+    //add EventListener
+    btn.addEventListener('click', () => {
+        menu.classList.toggle("hidden")
+
+    });
+</script>
+
+</html>

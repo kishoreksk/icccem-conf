@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>icccem 2022</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <header class="">
+        <div class="flex container justify-center items-center mx-auto px-5 py-2">
+            <a href="">
+                <img class="h-24 mr-5" src="./images/aulogo.png" alt="">
+
+            </a>
+            <div class="text-center">
+                <h3>International Conference on</h3>
+                <h2>COMPUTING , CIRCUITS, ENERGY AND MATERIALS</h2>
+                <h4>Dec 15-16 at Nagercoil, Tamil Nadu (Hybrid Event)</h4>
+
+            </div>
+        </div>
+
+    </header>
+    <nav class="color-1 mt-5">
+        <div class="flex container items-center px-10 py-2 text-white font-semibold">
+            <div class="md:hidden ">
+                <button class="mobile-menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                      </svg>
+                </button>
+
+            </div>
+            <!-- Mobile menu -->
+
+
+
+            <ul class="hidden md:flex flex-auto space-x-8 justify-center uppercase">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Committee</a>
+                </li>
+                <li>
+                    <a href="">Registration</a>
+                </li>
+                <li>
+                    <a href="">Brochure</a>
+                </li>
+                <li>
+                    <a href="">Submission</a>
+                </li>
+                <li>
+                    <a href="">Venue</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+
+
+
+
+        </div>
+
+        <div class="mobile-menu hidden ">
+            <ul class="space-y-2 flex flex-col px-10 py-2 text-white ease-in duration-300">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Committee</a>
+                </li>
+                <li>
+                    <a href="">Registration</a>
+                </li>
+                <li>
+                    <a href="">Brochure</a>
+                </li>
+                <li>
+                    <a href="">Submission</a>
+                </li>
+                <li>
+                    <a href="">Venue</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+    <div>
+        <embed src="https://docs.google.com/forms/d/e/1FAIpQLSeULf2_TRW7l0Jy1ulTLXfBuD90BjCFmWvOS2Pe10OaHMjlIg/viewform?embedded=true" width="100%" height="1500" frameborder="0" marginheight="0" marginwidth="0"></embed>
+
+
+    </div>
+
+
+
+</body>
+<script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+
+    //add EventListener
+    btn.addEventListener('click', () => {
+        menu.classList.toggle("hidden")
+
+    });
+</script>
+
+</html>
