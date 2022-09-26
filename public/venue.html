@@ -10,153 +10,632 @@
 </head>
 
 <body>
-    <header class="">
-        <div class="flex container justify-center items-center mx-auto px-5 py-2">
-            <a href="">
-                <img class="h-24 mr-5" src="./images/aulogo.png" alt="">
+    <section>
+        <header class="">
+            <div class="flex container justify-center items-center mx-auto px-5 py-2">
+                <a href="">
+                    <img class="h-24 mr-5" src="./images/aulogo.png" alt="">
+                    <span class="text-xs font-bold text-red-900">ICCCEM - 2022</span>
 
-            </a>
-            <div class="text-center">
-                <h3>International Conference on</h3>
-                <h2>COMPUTING , CIRCUITS, ENERGY AND MATERIALS</h2>
-                <h4>Dec 15-16 at Nagercoil, Tamil Nadu (Hybrid Event)</h4>
+                </a>
+                <div class="text-center">
+                    <h3 class="text-2xl font-extrabold text-rose-600">International Conference on</h3>
+                    <h2 class="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-sky-500 to-purple-600">COMPUTING , CIRCUITS, ENERGY AND MATERIALS</h2>
+                    <h4 class="text-xl font-bold">Dec 15-16 at Nagercoil, Tamil Nadu (Hybrid Event)</h4>
 
+                </div>
             </div>
-        </div>
 
-    </header>
-    <nav class="color-1 mt-5">
-        <div class="flex container items-center px-10 py-2 text-white font-semibold">
-            <div class="md:hidden ">
-                <button class="mobile-menu-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold cursor-pointer">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                      </svg>
-                </button>
+        </header>
+        <nav class="color-1 mt-5">
+            <div class="flex container items-center px-10 py-2 text-white font-semibold">
+                <div class="md:hidden ">
+                    <button class="mobile-menu-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 font-bold cursor-pointer">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                          </svg>
+                    </button>
 
+                </div>
+                <!-- Mobile menu -->
+                <ul class="hidden md:flex flex-auto space-x-8 justify-center uppercase">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="committee.html">Committee</a>
+                    </li>
+                    <li>
+                        <a href="registration.html">Registration</a>
+                    </li>
+                    <li>
+                        <a href="brochure.html">Brochure</a>
+                    </li>
+                    <li>
+                        <a href="https://forms.gle/veTNxbxHJqSat8eB9" target="blank">Submission</a>
+                    </li>
+                    <li>
+                        <a href="venue.html">Venue</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <!-- Mobile menu -->
-            <ul class="hidden md:flex flex-auto space-x-8 justify-center uppercase">
-                <li>
-                    <a href="index">Home</a>
-                </li>
-                <li>
-                    <a href="committee.html">Committee</a>
-                </li>
-                <li>
-                    <a href="registration.html">Registration</a>
-                </li>
-                <li>
-                    <a href="brochure.html">Brochure</a>
-                </li>
-                <li>
-                    <a href="https://forms.gle/veTNxbxHJqSat8eB9" target="blank">SUBMISSION</a>
-                </li>
-                <li>
-                    <a href="venue.html">Venue</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
 
-        <div class="mobile-menu hidden ">
-            <ul class="space-y-2 flex flex-col px-10 py-2 text-white ease-in duration-300">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="committee.html">Committee</a>
-                </li>
-                <li>
-                    <a href="registration.html">Registration</a>
-                </li>
-                <li>
-                    <a href="brochure.html">Brochure</a>
-                </li>
-                <li>
-                    <a href="https://forms.gle/veTNxbxHJqSat8eB9" target="blank">SUBMISSION</a>
-                </li>
-                <li>
-                    <a href="venue.html">Venue</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="mobile-menu hidden ">
+                <ul class="space-y-4 flex flex-col px-10 py-4 text-white ease-in duration-300">
+                    <li class=" hover:bg-sky-600 hover:font-bold hover:text-lg  p-2">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class=" hover:bg-sky-600 hover:font-bold hover:text-lg  p-2">
+                        <a href="committee.html">Committee</a>
+                    </li>
+                    <li class=" hover:bg-sky-600 hover:font-bold hover:text-lg  p-2">
+                        <a href="registration.html">Registration</a>
+                    </li>
+                    <li class=" hover:bg-sky-600 hover:font-bold hover:text-lg  p-2">
+                        <a href="brochure.html">Brochure</a>
+                    </li>
+                    <li class=" hover:bg-sky-600 hover:font-bold hover:text-lg  p-2">
+                        <a href="https://forms.gle/veTNxbxHJqSat8eB9" target="blank">Submission</a>
+                    </li>
+                    <li class=" hover:bg-sky-600 hover:font-bold hover:text-lg  p-2">
+                        <a href="venue.html">Venue</a>
+                    </li>
+                    <li class=" hover:bg-sky-600 hover:font-bold hover:text-lg  p-2">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-    <footer class="bg-gray-900 text-white">
-        <div class="mx-auto container p-12">
-            <div class=" grid lg:grid-cols-2 md:grid-cols-2">
-                <div class="mb-6">
-                    <h5 class="uppercase font-bold mb-5 text-md">Contact Us</h5>
+        </nav>
 
-                    <ul class="list-none space-y-2 text-sm">
-                        <li class="flex space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+    </section>
+
+    <section>
+        <!-- component -->
+        <div class="m-10 flex items-center ">
+            <div class="container mx-auto p-3 bg-white  rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 ">
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-center m-5">Venue</h3>
+
+                </div>
+                <img class="rounded-xl" src="./images/UCEN.jpg" alt="" />
+                <div class="flex justify-center items-center text-center">
+
+                    <div class="mb-6 justify-center te">
+                        <h5 class="uppercase text-center font-bold mt-5 mb-3 text-md bg-slate-500 text-white rounded-3xl">Contact Us</h5>
+
+                        <ul class="list-none space-y-2 text-sm">
+                            <li class="flex space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                                      </svg>
+                                <span>
+                                    <a href="tel:+919443432488">+91 94434 32488 </a>      
+                                </span>
+
+
+                            </li>
+
+                            <li class="flex space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                                   </svg>
+
+                                <a href="mailto:icccem2022@gmail.com"> icccem2022@gmail.com  </a>
+                            </li>
+                            <li class="flex space-x-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                                  </svg>
+
+                                <a href="https://www.ucen.ac.in">www.ucen.ac.in</a></p>
+                            </li>
+
+                            <li class="flex space-x-1">
+                                <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                      </svg>
+                                </a>
+                                <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473">University College Of Engineering, Nagercoil</a>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <h3 class="text-2xl md:text-3xl font-bold text-center">Modes of Transportation</h3>
+        <main class="w-screen py-6  flex items-center justify-center flex-wrap">
+            <!--     primera card -->
+            <div class="bg-white h-96 w-96 shadow-md rounded m-3">
+                <div class="h-1/2 w-full">
+
+                    <img class="w-full h-full object-cover rounded-t" src="./imgs/emirates.jpeg" alt="">
+                </div>
+                <div class="w-full h-1/2 p-3">
+                    <a href="https://www.google.com/maps/place/Trivandrum+International+Airport/@8.4834254,76.9176307,17z/data=!3m1!4b1!4m5!3m4!1s0x3b05bb801384b295:0x1d59f5a4731d65f7!8m2!3d8.4834201!4d76.9198194" class=" hover:text-yellow-600 text-gray-700">
+                        <span class="text-xl font-semibold uppercase tracking-wide ">Trivandrum International Airport - (TRV) </span>
+                    </a>
+
+                    <ul class="list-none space-y-2 text-sm mt-3">
+                        <li class="flex space-x-1">
+                            <a href="https://www.google.com/maps/place/Trivandrum+International+Airport/@8.4834254,76.9176307,17z/data=!3m1!4b1!4m5!3m4!1s0x3b05bb801384b295:0x1d59f5a4731d65f7!8m2!3d8.4834201!4d76.9198194">
+                                <img class="w-6 h-6" src="https://img.icons8.com/fluency/48/000000/address.png" />
+                            </a>
+                            <a href="https://www.google.com/maps/place/Trivandrum+International+Airport/@8.4834254,76.9176307,17z/data=!3m1!4b1!4m5!3m4!1s0x3b05bb801384b295:0x1d59f5a4731d65f7!8m2!3d8.4834201!4d76.9198194">
+                                Trivandrum International Airport,
+                                Airport Road, Kerala, India.
+                                </a>
+
+                        </li>
+                        <li class="flex space-x-1">
+                            <img class="w-6 h-6" src="https://img.icons8.com/color/48/000000/car--v1.png" />
                             <span>
-                                <a href="tel:+919443432488">+91 94434 32488 </a>      
+                                <a href="https://www.google.com/maps/dir/Trivandrum+International+Airport,+Airport+Road,+Chacka,+Thiruvananthapuram,+Kerala/5C87%2BPMQ+University+College+of+Engineering,Nagercoil,+Industrial+Estate+Konam,+Nagercoil,+Tamil+Nadu+629004/@8.3305663,76.8904362,10z/am=t/data=!4m14!4m13!1m5!1m1!1s0x3b05bb801384b295:0x1d59f5a4731d65f7!2m2!1d76.9198194!2d8.4834201!1m5!1m1!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!2m2!1d77.4142473!2d8.1668354!3e0">Distance : 75 KM, (2 Hr)</a>      
                             </span>
 
 
                         </li>
+                    </ul>
+                </div>
+            </div>
+            <!--     segunda card -->
+            <div class="bg-white w-96 h-96  shadow-md rounded m-3">
+                <div class="h-1/2 w-full">
+                    <img class="w-full h-full object-cover rounded-t" src="./imgs/Flights.jpeg" alt="">
+                </div>
+                <div class="w-full h-1/2 p-3">
+                    <a href="https://www.google.com/maps/place/Tuticorin+Airport/@8.7260877,78.0247105,17z/data=!3m1!4b1!4m5!3m4!1s0x3b03f384691176ef:0x4f362c2f90e83e74!8m2!3d8.7260924!4d78.0269017" class=" hover:text-yellow-600 text-gray-700">
+                        <span class="text-xl font-semibold uppercase tracking-wide ">Tuticorin Domestic Airport - (TCR)</span>
+                    </a>
+                    <ul class="list-none space-y-2 text-sm mt-3">
                         <li class="flex space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                            <a href="https://www.google.com/maps/place/Tuticorin+Airport/@8.7260877,78.0247105,17z/data=!3m1!4b1!4m5!3m4!1s0x3b03f384691176ef:0x4f362c2f90e83e74!8m2!3d8.7260924!4d78.0269017">
+                                <img class="w-6 h-6" src="https://img.icons8.com/fluency/48/000000/address.png" />
+                            </a>
+                            <a href="https://www.google.com/maps/place/Tuticorin+Airport/@8.7260877,78.0247105,17z/data=!3m1!4b1!4m5!3m4!1s0x3b03f384691176ef:0x4f362c2f90e83e74!8m2!3d8.7260924!4d78.0269017">
+                                Tuticorin Airport(Domestic Airport),
+                                Airport Road, Vagaikulam,
+                                TamilNadu - 628 103, India.
+                                </a>
+
+                        </li>
+                        <li class="flex space-x-1">
+                            <img class="w-6 h-6" src="https://img.icons8.com/color/48/000000/car--v1.png" />
+                            <span>
+                                <a href="https://www.google.com/maps/dir/Tuticorin+Airport,+Airport+Airport+Road,+Vagaikulam,+Tamil+Nadu/5C87%2BPMQ+University+College+of+Engineering,Nagercoil,+Industrial+Estate+Konam,+Nagercoil,+Tamil+Nadu+629004/@8.4522984,77.441009,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3b03f384691176ef:0x4f362c2f90e83e74!2m2!1d78.0269017!2d8.7260924!1m5!1m1!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!2m2!1d77.4142473!2d8.1668354!3e0">Distance : 127 KM, (2 Hr 30 Min)</a>      
+                            </span>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--     tercera card -->
+            <div class="bg-white w-96 h-96 shadow-md rounded m-3">
+                <div class="h-1/2 w-full">
+                    <img class="w-full h-full object-cover rounded-t" src="./imgs/indian-railways-.jpeg" alt="piña">
+                </div>
+                <div class="w-full h-1/2 p-3">
+                    <a href="https://www.google.com/maps/place/Nagercoil+Junction+Railway+Station+-+RRI+Cabin+Rd,+Nagercoil,+Tamil+Nadu/@8.177531,77.4404494,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f115b24bcfb3:0x6721d1040a000e54!8m2!3d8.1775257!4d77.4426381" class=" hover:text-yellow-600 text-gray-700">
+                        <span class="text-lg font-semibold uppercase tracking-wide ">Nagercoil Junction Railway Station - (NCJ)</span>
+                    </a>
+                    <ul class="list-none space-y-2 text-sm mt-3">
+                        <li class="flex space-x-1">
+                            <a href="https://www.google.com/maps/place/Nagercoil+Junction+Railway+Station+-+RRI+Cabin+Rd,+Nagercoil,+Tamil+Nadu/@8.177531,77.4404494,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f115b24bcfb3:0x6721d1040a000e54!8m2!3d8.1775257!4d77.4426381">
+                                <img class="w-6 h-6" src="https://img.icons8.com/fluency/48/000000/address.png" />
+                            </a>
+                            <a href="https://www.google.com/maps/place/Nagercoil+Junction+Railway+Station+-+RRI+Cabin+Rd,+Nagercoil,+Tamil+Nadu/@8.177531,77.4404494,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f115b24bcfb3:0x6721d1040a000e54!8m2!3d8.1775257!4d77.4426381">
+                                Nagercoil Junction,
+                                Railway Feeder Road, Kottar,
+                                TamilNadu - 629 001
+                                </a>
+
+                        </li>
+                        <li class="flex space-x-1">
+                            <img class="w-6 h-6" src="https://img.icons8.com/color/48/000000/car--v1.png" />
+                            <span>
+                                <a href="https://www.google.com/maps/dir/Nagercoil+Junction+Railway+Station+-+RRI+Cabin+Rd,+Vadiveeswaram+Village,+Ozhuginasery,+Tamil+Nadu/5C87%2BPMQ+University+College+of+Engineering,Nagercoil,+Industrial+Estate+Konam,+Nagercoil,+Tamil+Nadu+629004/@8.1749171,77.4112936,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3b04f115b24bcfb3:0x6721d1040a000e54!2m2!1d77.4423497!2d8.1782892!1m5!1m1!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!2m2!1d77.4142473!2d8.1668354!3e0">Distance : 4 KM, (10 Min)</a>      
+                            </span>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+    </section>
+
+    <section>
+        <h3 class="text-2xl md:text-3xl font-bold text-center m-5">Tourist Attractions</h3>
+
+        <!-- component -->
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-2 gap-4 space-y-8 justify-center ">
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./imgs/kanyakumari.jpeg" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Kanyakumari+Beach/@8.086522,77.554259,18z/data=!3m1!4b1!4m5!3m4!1s0x3b04ed310b4e670d:0xa41f5be93b4cba9a!8m2!3d8.0866137!4d77.5544412">
+                                4.5
+                                <span class="text-gray-500 font-normal ">(5,248 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Beach</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">Kanyakumari Beach
+                    </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        Kanyakumari Beach is one of the most pristine beaches in the waterfront town of Kanyakumari. It is located at the confluence of the Bay of Bengal, Arabian Sea and Indian Ocean. Beauty oozes here in the form of soft golden sand that is overlapped by shimmering
+                        waters of the endless sea.
+
+                    </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Kanyakumari">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./images/thirparapu.jpg" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Thirparappu+water+Falls/@8.3913417,77.2511894,16z/data=!4m9!1m2!2m1!1sthirparappu+falls!3m5!1s0x3b04532184a9be51:0x5a2e420cc55ecbf!8m2!3d8.3913417!4d77.2594291!15sChF0aGlycGFyYXBwdSBmYWxsc1oTIhF0aGlycGFyYXBwdSBmYWxsc5IBCndhdGVyX3BhcmuaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTjVaMlpsYmpWUlJSQULgAQA">
+                                4.5
+                                <span class="text-gray-500 font-normal ">(3,344 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Waterfall</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">
+                        Thirparappu Waterfalls
+                    </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        Thirparappu Waterfalls are waterfalls in Kanyakumari District. It is also known as “Courtallam of Kanyakumari”. The Mahadevar Temple is very near to the waterfalls. The waterfalls is 7 km (4.3 miles) from Kulasekaram, Actually the waterfalls is exactly
+                        34 km from city centre, Nagercoil.
+
+                    </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Thirparappu">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./images/mathoor.jpg" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Mathoor+Aqueduct/@8.3357282,77.2950419,17.01z/data=!4m13!1m7!3m6!1s0x3b04569baa5fefb5:0xacc48005d3fe9ab!2sMathoor+Hanging+Trough,+Tamil+Nadu!3b1!8m2!3d8.3357374!4d77.2950282!3m4!1s0x3b04569ba95b6b03:0x13b1fe7b264eee95!8m2!3d8.3359872!4d77.2947082">
+                                4.5
+                                <span class="text-gray-500 font-normal ">(6,876 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Aqueduct</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">
+                        Mathur Aqueduct
+                    </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        The Mathur Aqueduct was built to pass the cultivable water between two mountains. Mathur Aqueduct was built between Aruvikkarai and Mudhalaaru in Paraliyaru River. The aqueduct was built by Former Chief Minister of Tamil Nadu Perunthalaivar Thiru Kamarajar.
+                        Mathur aqueduct was South Asia's largest aqueduct. The aqueduct is 1,240 ft (380 m) long, 101 ft (31 m) high with 28 giant pillars. It is 3 km (1.9 mi) from Thiruvattar and 26 km from Nagercoil.
+
+                    </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Mathur_Aqueduct">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./imgs/palace.jpeg" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Padmanabhapuram+Palace/@8.2507431,77.3266987,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f8f729d2073d:0x257c390ae191b06f!8m2!3d8.2507482!4d77.3266015">
+                                4.4
+                                <span class="text-gray-500 font-normal ">(14,004 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Palace</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">
+                        Padmanabhapuram Palace
+                    </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        Before centuries, the houses that has all the facilities are known as Palaces. The rulers of states, the Kings resides in such Palaces. Padmanabhapuram Palace was once the official residence of Travancore Kings. Padmanabhapuram Palace was built in Kerala
+                        styled Architecture with woods. The palace was built in 18th century by Travancore King Thiru Anizham Thirunal Marthanda Varma.
+
+                    </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Padmanabhapuram_Palace">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./imgs/udayagiri fort.jpeg" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Udayagiri+Fort,+Noorul+Islam+University+to+Puliyuurkurichi,+Kumaracoil,+Tamil+Nadu+629180/@8.2427024,77.3403391,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f853f485bd8b:0xd3589adff0ad8b5b!8m2!3d8.2427024!4d77.3403391">
+                                3.9
+                                <span class="text-gray-500 font-normal ">(78 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Fort</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">
+                        Udayagiri Fort
+                    </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        Udayagiri Fort was situated just 10 km from Parvathipuram. The fort was situated in 22½ hectares in a place called Puliyoorkurichi. The Fort is maintained by the Ministry of Forests, Government of Tamilnadu.
+
+                    </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Udayagiri_Fort">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./imgs/vattakottai-fort-1656140879_29b538b9c6bcc61f6cd1.webp" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Vattakottai+Beach/@8.1253358,77.5629567,17z/data=!4m9!1m2!2m1!1svattakottai!3m5!1s0x3b048d53405b2349:0x686d23e1f7e1c64!8m2!3d8.1250446!4d77.5652948!15sCgt2YXR0YWtvdHRhaZIBD2JlYWNoX3BhdmlsbGlvbuABAA">
+                                4.3
+                                <span class="text-gray-500 font-normal ">(6,484 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Fort</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">
+                        Vattakkottai
+                    </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        The word 'Vattakkottai' means Circle Fort and is circular in shape. The Fort was constructed along the seashore in East coast. The fort was situated in 3 1/2 acres with compound stones constructed for 25 metres height and constructed by Travancore Army
+                        Chief Dilanai. The fort is under the control of Archaeological Department, Government of India. It is situated just 6;km north from Kanyakumari and just 2 km south from Anjugramam.
+                    </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Vattakottai_Fort">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./images/jaintemple.png" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Chitharal+Rock+Jain+Temple+(+Malaikovil)/@8.3323585,77.2384187,17z/data=!3m1!4b1!4m5!3m4!1s0x3b0454f79775f7c3:0x86b55a2e872ecd32!8m2!3d8.3323585!4d77.2384187">
+                                4.6
+                                <span class="text-gray-500 font-normal ">(2,219 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Temple</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">
+                        Chitharal Jain Rock Cut Temple </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        It is famous for the Rock-cut temple. Hillock at Chitharal has a cave containing Rock-cut sculptures of Thirthankaras and attendant deities carved inside and outside dating back to 9th Century A.D by King Mahendra Varman. </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Chitharal_Jain_Monuments_and_Bhagavati_Temple">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-2xl mx-auto border border-white bg-white">
+                <div class="w-full md:w-1/3 bg-white grid place-items-center">
+                    <img src="./imgs/muttom-beach-kanyakumari-tourism-entry-fee-timings-holidays-reviews-header.jpeg" alt="tailwind logo" class="rounded-xl" />
+                </div>
+                <div class="w-full md:w-2/3 bg-white flex flex-col space-y-2 p-3">
+                    <div class="flex justify-between item-center ">
+
+                        <div class="flex items-center ">
+                            <svg xmlns="http://www.w3.org/2000/svg " class="h-5 w-5 text-yellow-500 " viewBox="0 0 20 20 " fill="currentColor ">
+							<path
+								d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                            1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z " />
+						</svg>
+                            <a class="text-gray-600 font-bold text-sm ml-1 " href="https://www.google.com/maps/place/Muttom+Beach/@8.1238848,77.3144751,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04fb3944ca3c15:0x878ac9d510dd39ec!8m2!3d8.1239109!4d77.31453">
+                                4.5
+                                <span class="text-gray-500 font-normal ">(689 reviews)</span>
+                            </a>
+                        </div>
+
+                        <div class="bg-gray-200 px-3 py-1 rounded-full text-xs font-medium text-gray-800 ">
+                            Beach</div>
+                    </div>
+
+                    <h3 class="font-black text-gray-800 md:text-xl text-xl">
+                        Muttom Beach
+                    </h3>
+                    <p class="md:text-sm text-gray-500 text-base">
+                        Muttom is a village in the Kanyakumari District of the Tamil Nadu, India. It is a well known its beach with some rocks and caves. The major occupation of people in Muttom is fishing. Muttom village is attracted by visitors because of its beach. This beach
+                        is known as the best sun set point in the district.
+                    </p>
+                    <a class="text-xl font-black text-sky-600 hover:text-amber-500" href="https://en.wikipedia.org/wiki/Muttom,_Kanyakumari">
+                        Read more
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-gray-900 text-white ">
+        <div class="mx-auto container p-12 ">
+            <div class=" grid lg:grid-cols-2 md:grid-cols-2 ">
+                <div class="mb-6 ">
+                    <h5 class="uppercase font-bold mb-5 text-md ">Contact Us</h5>
+
+                    <ul class="list-none space-y-2 text-sm ">
+                        <li class="flex space-x-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="w-6 h-6 ">
+                                    <path stroke-linecap="round " stroke-linejoin="round " d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035
+                            12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z " />
+                                  </svg>
+                            <span>
+                                <a href="tel:+919443432488 ">+91 94434 32488 </a>      
+                            </span>
+
+
+                        </li>
+                        <li class="flex space-x-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="w-6 h-6 ">
+                                <path stroke-linecap="round " stroke-linejoin="round " d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035
+                            12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z " />
                                 
                             </svg>
-                            <span><a href="tel:+919486865043">+91 94868 65043 </a>   </span>
+                            <span><a href="tel:+919486865043 ">+91 94868 65043 </a>   </span>
                         </li>
-                        <li class="flex space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        <li class="flex space-x-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="w-6 h-6 ">
+                                <path stroke-linecap="round " stroke-linejoin="round " d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0
+                            01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75 " />
                               </svg>
 
-                            <a href="mailto:icccem2022@gmail.com"> icccem2022@gmail.com  </a>
+                            <a href="mailto:icccem2022@gmail.com "> icccem2022@gmail.com  </a>
                         </li>
-                        <li class="flex space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                        <li class="flex space-x-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="w-6 h-6 ">
+                                <path stroke-linecap="round " stroke-linejoin="round " d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997
+                            8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0
+                            0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418 " />
                               </svg>
 
-                            <a href="https://www.ucen.ac.in">www.ucen.ac.in</a></p>
+                            <a href="https://www.ucen.ac.in ">www.ucen.ac.in</a></p>
                         </li>
                     </ul>
                 </div>
 
-                <div class="mb-6">
-                    <h5 class="uppercase font-bold ml-2 mb-5 text-md">Locate Us</h5>
+                <div class="mb-6 ">
+                    <h5 class="uppercase font-bold ml-2 mb-5 text-md ">Locate Us</h5>
 
-                    <ul class="list-none space-y-2 text-sm">
-                        <li class="flex space-x-1">
+                    <ul class="list-none space-y-2 text-sm ">
+                        <li class="flex space-x-1 ">
 
-                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473 ">
+                                <svg xmlns="http://www.w3.org/2000/svg " fill="none " viewBox="0 0 24 24 " stroke-width="1.5 " stroke="currentColor " class="w-6 h-6 ">
+                                    <path stroke-linecap="round " stroke-linejoin="round " d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z " />
+                                    <path stroke-linecap="round " stroke-linejoin="round " d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z " />
                                   </svg>
                             </a>
-                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473">University College Of Engineering, Nagercoil</a>
+                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473 ">University College Of Engineering, Nagercoil</a>
 
 
                         </li>
-                        <li class="ml-7">
-                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473">Tamil Nadu - 629-004,</a>
+                        <li class="ml-7 ">
+                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473 ">Tamil Nadu - 629-004,</a>
 
                         </li>
-                        <li class="ml-7">
-                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473">INDIA</a>
+                        <li class="ml-7 ">
+                            <a href="https://www.google.com/maps/place/University+College+of+Engineering,Nagercoil/@8.1668354,77.4120586,17z/data=!3m1!4b1!4m5!3m4!1s0x3b04f0e513adeb85:0xe22e3eb86c9146bf!8m2!3d8.1668354!4d77.4142473 ">INDIA</a>
 
                         </li>
 
                     </ul>
                 </div>
     </footer>
+    <script src="./js/main.js "></script>
 </body>
 
 </html>

@@ -5,6 +5,6 @@
 
 @layer components{
     .color-1{
-        @apply bg-blue-900
+        @apply bg-sky-900
     }
 }
